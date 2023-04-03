@@ -1,0 +1,107 @@
+html {
+    font-size: 62.5%;
+    scroll-behavior: smooth;
+}
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: 'Open Sans', sans-serif;
+    font-size: 2rem;
+    line-height: 1.5;
+}
+
+header{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    height: 6.5rem;
+    padding-left: 2vw;
+    padding-right: 2vw;
+    position: fixed;
+    z-index: 1;
+    background: rgba(0, 0, 0, 0.8);
+    width: 100%;
+    color: var(--white-color);
+    overflow: hidden;
+}
+
+header a {
+    text-transform: capitalize;
+    font-weight: bold;
+    position: relative;
+    padding-right: 0.7vw;
+}
+
+a {
+    color: var(--white-color);
+    text-decoration: none;
+}
+
+p {
+    margin-bottom: 3rem;
+}
+
+table {
+    width: 90vw;
+    border-collapse: collapse;
+    border-spacing: 0px;
+    table-layout: fixed;
+    margin: 0 auto;
+}
+
+table caption {
+    font-style: italic;
+    font-size: 1.6rem;
+    text-align: left;
+    margin-bottom: 1rem;
+}
+
+table td,
+table th {
+    text-align: left;
+    border: 0.1rem solid var(--light-gray-color)
+}
+
+tfoot td,
+table th {
+    background: var(--primary-color);
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+    font-family: 'Montserrat', sans-serif !important;
+}
+
+h1 {
+    font-size: 6rem;
+    text-transform: uppercase;
+}
+
+h2 {
+    font-size: 5.5rem;
+}
+
+h3 {
+    font-size: 5rem;
+}
+
+h4 {
+    font-size: 4.5rem;
+}
+
+h5 {
+    font-size: 4rem;
+}
+
+h6 {
+    font-size: 3.5rem;
+}
